@@ -7,8 +7,9 @@ namespace AdventOfCode2022
         static void Main(string[] args)
         {
 
-            PuzzlesDay1 puzzlesDay1 = new PuzzlesDay1(@"./Inputs/Tests/InputDay1.txt");
-            Console.WriteLine(puzzlesDay1.getPart2());
+            PuzzlesDay2 puzzle = new PuzzlesDay2(@"./Inputs/InputDay2.txt");
+            Console.WriteLine("Part 1: " + puzzle.getPart1());
+            Console.WriteLine("Part 2: " + puzzle.getPart2());
 
             Console.WriteLine("Hello, World!");
         }

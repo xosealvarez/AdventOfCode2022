@@ -43,7 +43,6 @@ namespace AdventOfCode2022.Puzzles
 
         public int getPart2()
         {
-            getPart1();
             return _sumCaloriesByElf[0] + _sumCaloriesByElf[1] + _sumCaloriesByElf[2];
         }
     }
